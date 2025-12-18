@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(240, 210, 247);
+    font: normal 15pt Arial;
+}
+ header {
+    color:rgb(88, 13, 159);
+    text-align: center;
+ }
+ section {
+   /*background: linear-gradient(180deg, #090c1f, #ffffff); */
+    background: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 150px;
+    width:500px;
+    margin:auto;
+    box-shadow: 3px 3px 10px rgba(128, 0, 128, 0.553)
+ }
+ footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+ }
+ 
+#btnTabuada {
+  background-color: rgb(188, 129, 244);
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btnTabuada:hover {
+  background-color: rgb(211, 185, 236);
+  color: blueviolet;
+}
+input[type="number"] {
+  width: 100px;                 /* largura da caixa */
+  padding: 8px;                /* espaço interno */
+  border: 2px solid rgba(42, 15, 68, 0.63);/* borda colorida */
+  border-radius: 6px;          /* cantos arredondados */
+  font-size: 14px;             /* tamanho da fonte */
+  text-align: center;          /* centraliza o número */
+  outline: none;               /* remove a borda azul padrão */
+  transition: 0.3s;            /* animação suave */
+}
+
+input[type="number"]:focus {
+  border-color: rgb(203, 166, 239); /* muda cor ao clicar dentro */
+  box-shadow: 0 0 5px rgba(242, 8, 222, 0.685); /* brilho roxo */
+}
+
+#seltab {
+    width: 42%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(173, 136, 208);
+    font-size: 14px;
+    background-color: #f9f9f9;
+    color: rgb(55, 8, 99);
+    box-shadow: inset 0 0 5px rgba(169, 5, 169, 0.2);
+}
+#seltab::-webkit-scrollbar {
+  width: 8px;
+}
+
+/*#seltab::-webkit-scrollbar-thumb {
+  background: rgb(188, 129, 244);
+  border-radius: 4px;
+}*/
+
+header h1 {
+  text-shadow: 2px 2px 5px rgba(227, 35, 227, 0.494);
+}
